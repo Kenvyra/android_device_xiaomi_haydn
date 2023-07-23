@@ -47,6 +47,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Miscellaneous
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_ENABLE_BLUR := true
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
